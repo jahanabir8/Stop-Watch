@@ -38,6 +38,7 @@ function reset() {
 
   clearInterval(interval);
   isRunning = false;
+  startStopBtn.innerHTML = 'Start'
   updateDisplaly();
 }
 
